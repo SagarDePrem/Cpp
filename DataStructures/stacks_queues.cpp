@@ -1,11 +1,11 @@
-/* Stacks - Last In First Out data structure
- * It's like a jar of stacked cookies
- * Four operations - pop(), push(), top(),isEmpty()
- *****************************************************
- * Queues - First In First Out data structure
- * Ops - peek(), isEmpty(), enqueue(), dequeue()
- *****************************************************
- */
+/*****************************************************\
+ * Stacks - Last In First Out data structure          *
+ * It's like a jar of stacked cookies                 *
+ * Four operations - pop(), push(), top(),isEmpty()   *
+ ******************************************************
+ * Queues - First In First Out data structure         *
+ * Ops - peek(), isEmpty(), enqueue(), dequeue()      *
+ \*****************************************************/
 #include<iostream>
 
 class Stack
@@ -38,7 +38,7 @@ public:
     void pop()
     {
         if (top_==NULL)
-            std::cout << "Stack's empty bro!";
+            std::cout << "Stack's empty!";
         else
             top_ = top_->nextptr;
     }
@@ -81,14 +81,14 @@ public:
             delete toDelete;
         }
     }
-    bool isEmpty()  // check if stack is empty
+    bool isEmpty()  // check if queue is empty
     {
         return head==NULL;
     }
     void dequeue()
     {
         if (head==NULL)
-            std::cout << "Queue's empty bro!";
+            std::cout << "Queue's empty!";
         else
             head = head->next;
     }
