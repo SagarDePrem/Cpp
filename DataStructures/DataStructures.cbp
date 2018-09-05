@@ -31,7 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="hashTables.cpp" />
+		<Unit filename="stacks.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
