@@ -31,7 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="stacks.cpp" />
+		<Unit filename="stacks_queues.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
